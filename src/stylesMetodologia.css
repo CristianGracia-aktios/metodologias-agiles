@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;  
+}
+
+/* B O D Y */
+body{
+    background-color: rgb(0, 21, 53);
+}
