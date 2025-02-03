@@ -5,11 +5,42 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
 }
-a{
-    text-decoration: none;  
-}
 
+h1,h2,h3{
+    padding: 10px;
+    letter-spacing: 0.5em;
+    color: red;
+}
 /* B O D Y */
 body{
     background-color: rgb(0, 21, 53);
+}
+#sub-header{
+    max-width: 60%;
+}
+#sub-header > h5{
+    padding: 10px;
+}
+
+.texto > p {
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    margin: 3em 3em 3em 0;
+    padding-left: 10px;
+}
+
+.texto > img{
+    float: left;
+    width: 40%;
+    padding: 0px 10px 10px 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .texto > img{
+        width: 100%;
+        padding: 0px 10px 10px 10px;
+    }
+    #sub-header{
+        max-width: 90%;
+    }
 }
